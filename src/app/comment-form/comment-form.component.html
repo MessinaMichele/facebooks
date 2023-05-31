@@ -1,0 +1,8 @@
+<form (submit)="submitComment()">
+    <label>Autore commento:</label>
+    <input [(ngModel)]="autore" name="autore" required>
+    <label>Testo commento:</label>
+    <textarea [(ngModel)]="testo" name="testo" required></textarea>
+    <button type="submit">Invia commento</button>
+  </form>
+  

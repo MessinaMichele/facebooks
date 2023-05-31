@@ -1,0 +1,8 @@
+<form (submit)="submitPost()">
+    <label>Autore:</label>
+    <input [(ngModel)]="autore" name="autore" required>
+    <label>Testo del post:</label>
+    <textarea [(ngModel)]="testo" name="testo" required></textarea>
+    <button type="submit">Invia post</button>
+  </form>
+  
